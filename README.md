@@ -14,8 +14,8 @@ For each day in the dataset, the optimizer solves an LP problem with perfect pri
 
 - **Source:** SMARD (Bundesnetzagentur)
 - **Market:** Germany/Luxembourg Day-Ahead prices
-- **Period:** 1 January 2026 – 31 May 2026
-- **Resolution:** Hourly — 24 price points per day, each representing the DA clearing price for that hour
+- **Period:** 1 January 2026 - 31 May 2026
+- **Resolution:** Hourly - 24 price points per day, each representing the DA clearing price for that hour
 
 ---
 
@@ -79,11 +79,11 @@ The console prints a per-day status and revenue, followed by a monthly summary a
 
 ## Output Files
 
-**`daily_revenue_*.csv`** — date, optimisation status, and daily revenue (€)
+**`daily_revenue_*.csv`**: date, optimisation status, and daily revenue (€)
 
-**`hourly_detailed_data*.csv`** — hour-by-hour breakdown of price, charge, discharge, and SOC for every day
+**`hourly_detailed_data*.csv`**: hour-by-hour breakdown of price, charge, discharge, and SOC for every day
 
-> Full results and analysis are covered in a separate report.
+> Full results and analysis are covered in a separate report. (in progress)
 
 ---
 
