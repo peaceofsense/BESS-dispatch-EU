@@ -1,4 +1,4 @@
-# BESS Day-Ahead Price Arbitrage Optimizer
+# BESS Price-Responsive Dispatch Model - German DA Market
 
 A linear programming model that optimises the charge/discharge schedule of a Battery Energy Storage System (BESS) against DE-LU day-ahead electricity prices to maximise daily revenue.
 

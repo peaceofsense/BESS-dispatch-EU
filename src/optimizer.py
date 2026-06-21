@@ -76,7 +76,9 @@ def optimize_day(prices: list[float], battery: Battery) -> dict:
     model.soc_terminal = pyo.Constraint(rule=soc_terminal_rule)
 
     #   Solver
-    solver = pyo.SolverFactory("highs")
+    # solver = pyo.SolverFactory("highs")
+    solver = pyo.SolverFactory("gurobi")
+
     result = solver.solve(model, tee=False)
 
     #   Sanity check
